@@ -9,6 +9,12 @@ import (
 	声明全局变量 1,2可以 3只能用在函数体内
 
  */
+
+
+//别名
+type myint int
+
+
 func main() {
 	//声明一个变量 默认的值是0
 	// 1. var a int = 8
